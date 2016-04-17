@@ -1,2 +1,2 @@
 # Random-scripts
-Some random scripts I made for various things 
+Some random scripts I made/use for various things 
