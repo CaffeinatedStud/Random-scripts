@@ -1,9 +1,9 @@
 #!/bin/bash
 date=$(date +"%b %d %T")
-cd "/Path_to_Sorting_folder" #It will check this folder for name match, change the path accordingly 
+cd "/Path_to_Sorting_folder" #It will check this folder for name match. Input your own folder path here 
 for filename in *; do
   
-  case "${filename,,*}" in #examples of filenames below, remove them to suit your needs
+  case "${filename,,*}" in #examples of filename below, remove them to suit your needs
     the.originals.*)    mv "$filename" "/media/TV_shows/The.Originals" ;; 
     supergirl.*) mv "$filename" "/media/TV_shows/Supergirl" ;;
     suits.*) mv "$filename" "/media/TV_shows/Suits" ;;
